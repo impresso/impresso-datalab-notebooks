@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    environment:
+      - NOTEBOOK_TOKEN=${NOTEBOOK_TOKEN:-"mytoken"}
+    command: jupyter lab --NotebookApp.token=${NOTEBOOK_TOKEN}
+    volumes:
+      - ./notebooks:/home/impresso:rw

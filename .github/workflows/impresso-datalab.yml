@@ -1,0 +1,18 @@
+on: [workflow_dispatch]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Test this action
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+      - name: Skim file
+        id: skim
+        uses: c2dh/journal-of-digital-history-ipynb-skim-action@master
+        with:
+          notebook: 'notebooks/main.ipynb'
+      - name: commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: '*.ipynb'
