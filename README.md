@@ -11,6 +11,7 @@ By [emanuelaboros](https://huggingface.co/emanuelaboros)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/notebooks/news-agency.ipynb)
 
 In this notebook, we introduce the Named Entity Recognition (NER) task and show how to use the HuggingFace Transformers library with our [Bert NER model for French](https://huggingface.co/impresso-project/bert-newsagency-ner-fr) to perform NER on impresso newspaper articles. We use the `transformers` library to load our pre-trained NER model and apply it to a sample text.
+This notebook requires `HF_TOKEN` to be set in the environment variables. You can get your token by signing up on the [Hugging Face website](https://huggingface.co/join).
 
 To simply test the transformer with a random text, just go to the related [hugging space](https://huggingface.co/spaces/impresso-project/news-agency-recognition-in-french)
 
