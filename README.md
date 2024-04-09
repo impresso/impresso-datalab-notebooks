@@ -1,53 +1,19 @@
-# Impresso Starter Pack
+# Impresso Named Entity Recognition Notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/impresso/impresso-datalab-starter-pack/HEAD?labpath=main.ipynb)
+Welcome to the impresso Named Entity Recognition (NER) Notebook Series!
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-starter-pack/blob/main/main.ipynb)
+In this series of notebooks, we delve into the fascinating world of Named Entity Recognition (NER) within the context of the impresso project. Named Entity Recognition involves identifying and classifying named entities, such as locations, persons, organizations, and more, within a body of text.
 
-This repository contains the code and data for the [Impresso](https://impresso-project.ch) project's starter pack. The starter pack is a collection of tools and resources to help you get started with the Impresso data. It includes a set of Jupyter notebooks that demonstrate how to access and analyze the data, as well as a set of Python scripts that can be used to download the data and prepare it for analysis.
+## Detect random First steps into NER with _impresso_ model and HugginFace
 
-The repo Dockerfile has been created following the guidelines in https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
+By [emanuelaboros](https://huggingface.co/emanuelaboros)
 
-## Getting Started on your local machine, using pipenv
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/impresso/impresso-datalab-ner-notebooks/HEAD?labpath=main.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/main.ipynb)
 
-With `pipenv` installed, you can install the dependencies by running:
+In this notebook, we introduce the Named Entity Recognition (NER) task and show how to use the HuggingFace Transformers library with our [Bert NER model for French](https://huggingface.co/impresso-project/bert-newsagency-ner-fr) to perform NER on impresso newspaper articles. We use the `transformers` library to load our pre-trained NER model and apply it to a sample text.
 
-```bash
-pipenv install
-```
-
-Then, you can start the Jupyter notebook server by running:
-
-```bash
-pipenv run jupyter lab
-```
-
-Note: remeember to `pipenv requirements > requirements.txt` to keep the requirements file updated and in sync with the Pipfile, and `pipenv run black .` to format the code.
-
-## Getting Started on your local machine, using conda
-
-With `conda` installed, you can install the dependencies by running:
-
-```bash
-conda env create -f environment.yml
-conda activate impresso
-```
-
-Then, you can start the Jupyter notebook server by running:
-
-```bash
-jupyter lab
-```
-
-## Getting Started on your local machine, using Docker
-
-With `Docker` installed, you can run the image with docker compose:
-
-```bash
-docker compose up
-```
-
-Then, you can access the Jupyter notebook server at `http://localhost:8888`.
+To simply test the transformer with a random text, just go to the related [hugging space](https://huggingface.co/spaces/impresso-project/news-agency-recognition-in-french)
 
 ## Project
 
