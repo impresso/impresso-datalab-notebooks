@@ -8,8 +8,7 @@ In this series of notebooks, we delve into the fascinating world of Named Entity
 
 By [emanuelaboros](https://huggingface.co/emanuelaboros)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/impresso/impresso-datalab-ner-notebooks/HEAD?labpath=main.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/main.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/notebooks/news-agency.ipynb)
 
 In this notebook, we introduce the Named Entity Recognition (NER) task and show how to use the HuggingFace Transformers library with our [Bert NER model for French](https://huggingface.co/impresso-project/bert-newsagency-ner-fr) to perform NER on impresso newspaper articles. We use the `transformers` library to load our pre-trained NER model and apply it to a sample text.
 
