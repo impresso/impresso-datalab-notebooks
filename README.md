@@ -5,15 +5,14 @@
 
 The Impresso project develops application interfaces to enable historical transmedia research with:
 - the **[Impresso web app](https://impresso-project.ch/app)**, a user interface for content exploration and visualisation.
-- the **[Impresso Datalab]()**, a suite of tools for data analysis on the Impresso corpus and enrichments, and with Impresso models.     
+- the **[Impresso Datalab]()**, a suite of tools for data exploration and analysis on the Impresso corpus and enrichments, and with Impresso models.     
 
-The two interfaces communicate with each other and one can easily switch from one to the other, e.g. start a search in the web app, and then decide to open the query in the Datalab with a notebook. 
+The two interfaces communicate and one can easily switch from one to the other, e.g. start a search in the web app, and then decide to open the query in the Datalab with a notebook. 
 
 This repository contains notebooks that illustrate how to explore
-1. the [Impresso Public API]()
-2. the [Impresso models](https://huggingface.co/impresso-project) and annotation services
+1. the [Impresso Public API]().
+2. the [Impresso models](https://huggingface.co/impresso-project) and annotation services.
 
-___
 
 ## Exploring the Impresso API
 
@@ -34,7 +33,9 @@ A series of notebooks that illustrate how to access and explore entities in the 
 
 
 
-### About Impresso
+## About Impresso
+
+### Impresso project
 
 [Impresso - Media Monitoring of the Past](https://impresso-project.ch) is an
 interdisciplinary research project that aims to develop and consolidate tools for
