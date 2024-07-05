@@ -16,14 +16,14 @@ This repository contains notebooks that illustrate how to explore
 
 ## Notebooks
 
-### Exploring the Impresso API
+### ➤ Exploring the Impresso API
 
 To get you started with the Impresso Public API, the Starter Pack includes a set of notebooks that illustrate how to access, download, and explore the data.
 
 - [starter_01_environment](): a notebook that explains the basics of python environment and libraries in colab.
 - [starter_02_impresso_api](): a notebook that explains how to use the Impresso API, what data can be retrieved and how to explore it.
 
-### Entities
+### ➤ Entities
 
 A series of notebooks that illustrate how to access and explore entities in the impresso corpus, and how to use Impresso entity models. Impresso shares its [models](https://huggingface.co/impresso-project) on Hugging Face. You can use them to annotate your documents, thus obtaining annotations that are compatible with those of the Impresso corpus.
 
@@ -31,7 +31,7 @@ A series of notebooks that illustrate how to access and explore entities in the 
 - [NE_02_newsagencies]() [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity-notebooks/NE-processing-newsagencies.ipynb)
 
 
-### Topics
+### ➤ Topics
 
 
 
