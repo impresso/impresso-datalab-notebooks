@@ -7,17 +7,17 @@ This repository contains Jupyter notebooks and utilities for performing named en
 ### 1. [generic-entity.ipynb](generic-entity.ipynb)
 This notebook demonstrates how to set up a workflow for identifying generic named entities within your text. It uses a pre-trained NER model to detect mentions of people, places, organizations, and temporal expressions.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/generic-entity.ipynb?copy=true)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/2-first-notebooks-for-ne-processing/notebooks/entities/generic-entity.ipynb?copy=true)
 
 ### 2. [generic-linked-entity.ipynb](generic-linked-entity.ipynb)
 Building on the `generic-entity.ipynb` notebook, this notebook not only identifies generic named entities but also focuses on generating Wikidata and Wikipedia links for these entities. This adds valuable metadata to your text, providing deeper insights and connections to structured knowledge bases.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/generic-linked-entity.ipynb?copy=true)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/2-first-notebooks-for-ne-processing/notebooks/entities/generic-linked-entity.ipynb?copy=true)
 
 ### 3. [news-agency-entity.ipynb](news-agency-entity.ipynb)
 This notebook is tailored towards identifying news agencies within historical newspaper articles. Using a pre-trained NER model, it highlights the role and mentions of news agencies in your text.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-ner-notebooks/blob/main/news-agency-entity.ipynb?copy=true)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/2-first-notebooks-for-ne-processing/notebooks/entities/news-agency-entity.ipynb?copy=true)
 
 ## Utilities
 
