@@ -1,17 +1,17 @@
 # Impresso Named Entity Recognition Notebooks
 
-Welcome to the impresso Named Entity Recognition (NER) Notebook Series!
+Welcome to the Impresso Named Entity Recognition (NER) Notebook Series!
 
-In this series of notebooks, we delve into the fascinating world of Named Entity Recognition (NER) within the context of the impresso project. Named Entity Recognition involves identifying and classifying named entities, such as locations, persons, organizations, and more, within a body of text.
+In this series of notebooks, we delve into the fascinating world of Named Entity Recognition (NER) within the context of the Impresso project. Named Entity Recognition involves identifying and classifying named entities, such as locations, persons, organizations, and more, within a body of text.
 
-## Detect random First steps into NER with _impresso_ model and HuggingFace
+## First steps into NER and NEL with _Impresso_ models and HuggingFace
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/notebooks/news-agency.ipynb)
 
-In this notebook, we introduce the Named Entity Recognition (NER) task and show how to use the HuggingFace Transformers library with our [Bert NER model for French](https://huggingface.co/impresso-project/bert-newsagency-ner-fr) to perform NER on impresso newspaper articles. We use the `transformers` library to load our pre-trained NER model and apply it to a sample text.
-This notebook requires `HF_TOKEN` to be set in the environment variables. You can get your token by signing up on the [Hugging Face website](https://huggingface.co/join).
+In this notebooks, we introduce the Named Entity Recognition (NER) and Linking tasks and show how to use the HuggingFace Transformers library with our [Bert NER model for French](https://huggingface.co/impresso-project/bert-newsagency-ner-fr) to perform NER on impresso newspaper articles. We use the `transformers` library to load our pre-trained NER model and apply it to a sample text.
+This notebooks might require `HF_TOKEN` to be set in the environment variables. You can get your token by signing up on the [Hugging Face website](https://huggingface.co/join).
 
-To simply test the transformer with a random text, just go to the related [hugging space](https://huggingface.co/spaces/impresso-project/news-agency-recognition-in-french)
+To simply test the Transformer with a random text, just go to the related [hugging space](https://huggingface.co/spaces/impresso-project/news-agency-recognition-in-french)
 
 ## Project
 
