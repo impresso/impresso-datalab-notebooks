@@ -1,5 +1,30 @@
 import requests
 
+def get_linked_entities(text):
+    url = "https://impresso-annotation.epfl.ch/api/ner/"
+    
+    # Prepare the payload
+    payload = {
+        "data": text
+    }
+    
+    try:
+        # Make the POST request
+        response = requests.post(url, json=payload)
+        
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Parse the response JSON to get linked entities
+            data = response.json()
+            return data
+        else:
+            print(f"Request failed with status code {response.status_code}")
+            return None
+    
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred: {e}")
+        return None
+    
 def get_wikipedia_page_props(input_str: str):
     """
     Retrieves the QID for a given Wikipedia page name from the specified language Wikipedia.
