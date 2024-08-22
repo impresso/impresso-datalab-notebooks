@@ -23,7 +23,7 @@ def get_linked_entities(text):
     
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
-        return None
+        return e
     
 def get_wikipedia_page_props(input_str: str):
     """
