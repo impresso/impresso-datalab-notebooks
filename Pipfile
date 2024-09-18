@@ -8,9 +8,10 @@ requests = "*"
 black = {extras = ["jupyter"], version = "*"}
 jupyterlab = "*"
 nbconvert = "*"
+transformers = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
-python_full_version = "3.11.6"
+python_version = "3.12"
