@@ -1,17 +1,16 @@
 import requests
 
+
 def get_linked_entities(text):
-    url = "https://impresso-annotation.epfl.ch/api/ner/"
-    
+    url = "https://impresso-annotation.epfl.ch/api/ner_nel/"
+
     # Prepare the payload
-    payload = {
-        "data": text
-    }
-    
+    payload = {"data": text}
+
     try:
         # Make the POST request
         response = requests.post(url, json=payload)
-        
+
         # Check if the request was successful
         if response.status_code == 200:
             # Parse the response JSON to get linked entities
@@ -20,11 +19,12 @@ def get_linked_entities(text):
         else:
             print(f"Request failed with status code {response.status_code}")
             return None
-    
+
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
         return e
-    
+
+
 def get_wikipedia_page_props(input_str: str):
     """
     Retrieves the QID for a given Wikipedia page name from the specified language Wikipedia.
@@ -80,7 +80,9 @@ def get_wikipedia_page_props(input_str: str):
         # print(f"Error in Wikipedia API request: {e}")
         return qid  # fallback_to_openrefine(page_name, language)
 
+
 from spacy import displacy
+
 
 def prepare_entities_for_displacy(text, coarse_entities, fine_entities):
     """
@@ -91,31 +93,32 @@ def prepare_entities_for_displacy(text, coarse_entities, fine_entities):
     :return: A dictionary compatible with displacy for rendering.
     """
     combined_entities = []
-    
+
     # Add coarse entities first
     for ent in coarse_entities:
-        combined_entities.append({
-            "start": ent['start'],
-            "end": ent['end'],
-            "label": ent['entity'] + ' (COARSE)',
-        })
-    
+        combined_entities.append(
+            {
+                "start": ent["start"],
+                "end": ent["end"],
+                "label": ent["entity"] + " (COARSE)",
+            }
+        )
+
     # Add fine entities on the same spans (stacked)
     for ent in fine_entities:
-        combined_entities.append({
-            "start": ent['start'],
-            "end": ent['end'],
-            "label": ent['entity'] + ' (FINE)',
-        })
-    
+        combined_entities.append(
+            {
+                "start": ent["start"],
+                "end": ent["end"],
+                "label": ent["entity"] + " (FINE)",
+            }
+        )
+
     # Prepare data for displacy
-    displacy_data = {
-        "text": text,
-        "ents": combined_entities,
-        "title": None
-    }
-    
+    displacy_data = {"text": text, "ents": combined_entities, "title": None}
+
     return displacy_data
+
 
 def visualize_stacked_entities(text, coarse_entities, fine_entities):
     """
@@ -125,10 +128,10 @@ def visualize_stacked_entities(text, coarse_entities, fine_entities):
     :param fine_entities: Fine-grained entities.
     """
     print(f"\nVisualizing stacked coarse and fine-grained entities\n")
-    
+
     # Prepare the combined entity data
     displacy_data = prepare_entities_for_displacy(text, coarse_entities, fine_entities)
-    
+
     # Use displacy to render the entities in manual mode
     displacy.render(displacy_data, style="ent", manual=True, jupyter=True)
 
@@ -137,10 +140,14 @@ def print_nicely(results, text):
     for key, entities in results.items():
         if entities:
             print(f"\n**{key}**\n")
-            print(f"{'Entity':<25} {'Type':<20} {'Score':<8} {'Index':<5} {'Word':<20} {'Start':<5} {'End':<5}")
+            print(
+                f"{'Entity':<25} {'Type':<20} {'Score':<8} {'Index':<5} {'Word':<20} {'Start':<5} {'End':<5}"
+            )
             print("-" * 70)
             for entity in entities:
-                print(f"{entity['word']:<25} {entity['entity']:<20} {entity['score']:<8.2f}% {entity['index'][0]:<5} {entity['word']:<20} {entity['start']:<5} {entity['end']:<5}")
+                print(
+                    f"{entity['word']:<25} {entity['entity']:<20} {entity['score']:<8.2f}% {entity['index'][0]:<5} {entity['word']:<20} {entity['start']:<5} {entity['end']:<5}"
+                )
                 # print(f"{text[entity['start']:entity['end']]:<15} {entity['entity']:<10} {entity['score']:<8.2f}% {entity['index'][0]:<5} {entity['word']:<20} {entity['start']:<5} {entity['end']:<5}")
 
 
@@ -148,7 +155,7 @@ def add_entity_tags(text, results):
     entities = []
     for task, ents in results.items():
         for entity in ents:
-            entities.append((entity['start'], entity['end'], entity['word']))
+            entities.append((entity["start"], entity["end"], entity["word"]))
 
     already_done = []
     # Insert tags in the text using replace method
@@ -156,7 +163,5 @@ def add_entity_tags(text, results):
         if word not in already_done:
             text = text.replace(word, f"[START] {word} [END]")
             already_done.append(word)
-    
+
     return text
-
-
