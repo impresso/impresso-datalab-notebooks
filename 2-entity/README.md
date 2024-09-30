@@ -9,8 +9,8 @@ This notebook demonstrates how to set up a workflow for identifying generic name
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/7-polish-repair-if-any-the-entity-notebooks/2-entity/NE_01_ner.ipynb?copy=true)
 
 ### 2. [Generic Entity Recognition and Linking](NE_01_ner_nel.ipynb)
-Building on the `NE_01_ner_nel.ipynb` notebook, this notebook not only identifies generic named entities but also focuses on generating Wikidata and Wikipedia links for these entities. This adds valuable metadata to your text, providing deeper insights and connections to structured knowledge bases.
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/7-polish-repair-if-any-the-entity-notebooks/2-entity/NE_01_ner_nel.ipynb?copy=true)
+Building on the `NE_01_ner.ipynb` notebook, this notebook not only identifies generic named entities but also focuses on generating Wikidata and Wikipedia links for these entities. This adds valuable metadata to your text, providing deeper insights and connections to structured knowledge bases.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/7-polish-repair-if-any-the-entity-notebooks/2-entity/NE_02_ner_nel.ipynb?copy=true)
 
 ### 3. [News Agency Entity Recognition](NE_03_newsagencies.ipynb)
 This notebook is tailored towards identifying news agencies within historical newspaper articles. Using a pre-trained NER model, it highlights the role and mentions of news agencies in your text.
