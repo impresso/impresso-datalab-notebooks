@@ -4,20 +4,22 @@ This repository contains Jupyter notebooks and utilities for performing named en
 
 ## Notebooks
 
-### 1. [Generic Entity Recognition](generic-entity.ipynb)
+### 1. [Generic Entity Recognition](NE_01_ner.ipynb)
 This notebook demonstrates how to set up a workflow for identifying generic named entities within your text. It uses a pre-trained NER model to detect mentions of people, places, organizations, and temporal expressions.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner.ipynb?copy=true)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/2-first-notebooks-for-ne-processing/notebooks/entities/generic-entity.ipynb?copy=true)
+### 2. [Generic Entity Recognition and Linking](NE_01_ner_nel.ipynb)
+Building on the `NE_01_ner_nel.ipynb` notebook, this notebook not only identifies generic named entities but also focuses on generating Wikidata and Wikipedia links for these entities. This adds valuable metadata to your text, providing deeper insights and connections to structured knowledge bases.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner_nel.ipynb?copy=true)
 
-### 2. [Generic Entity Recognition and Linking](generic-linked-entity.ipynb)
-Building on the `generic-entity.ipynb` notebook, this notebook not only identifies generic named entities but also focuses on generating Wikidata and Wikipedia links for these entities. This adds valuable metadata to your text, providing deeper insights and connections to structured knowledge bases.
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/2-first-notebooks-for-ne-processing/notebooks/entities/generic-linked-entity.ipynb?copy=true)
-
-### 3. [News Agency Entity Recognition](news-agency-entity.ipynb)
+### 3. [News Agency Entity Recognition](NE_03_newsagencies.ipynb)
 This notebook is tailored towards identifying news agencies within historical newspaper articles. Using a pre-trained NER model, it highlights the role and mentions of news agencies in your text.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_03_newsagencies.ipynb?copy=true)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/2-first-notebooks-for-ne-processing/notebooks/entities/news-agency-entity.ipynb?copy=true)
+### 4. [Generic Named Entity Recognition and Linking with _Impresso_ API](NE_04_ner_nel_API.ipynb)
+This notebook demonstrates how to use the _Impresso_ API to perform named entity recognition and linking on a collection of newspaper articles. It shows how to extract named entities from the _Impresso_ API and link them to Wikidata and Wikipedia.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_04_ner_nel_API.ipynb?copy=true)
 
 ## Utilities
 
