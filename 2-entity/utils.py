@@ -1,4 +1,5 @@
 import requests
+from spacy import displacy
 
 
 def get_linked_entities(text):
@@ -81,7 +82,6 @@ def get_wikipedia_page_props(input_str: str):
         return qid  # fallback_to_openrefine(page_name, language)
 
 
-from spacy import displacy
 
 
 def prepare_entities_for_displacy(text, coarse_entities, fine_entities):
