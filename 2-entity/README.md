@@ -45,9 +45,3 @@ You can install these packages using pip:
 ```bash
 pip install transformers torch pandas requests nltk
 ```
-
-Also, be sure to also have the `nltk` data downloaded:
-
-```bash
-python -m nltk.downloader averaged_perceptron_tagger
-```
