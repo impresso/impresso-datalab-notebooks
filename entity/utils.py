@@ -1,5 +1,4 @@
 import requests
-from spacy import displacy
 
 
 def get_linked_entities(text):
@@ -80,8 +79,6 @@ def get_wikipedia_page_props(input_str: str):
     except Exception as e:
         # print(f"Error in Wikipedia API request: {e}")
         return qid  # fallback_to_openrefine(page_name, language)
-
-
 
 
 def prepare_entities_for_displacy(text, coarse_entities, fine_entities):
