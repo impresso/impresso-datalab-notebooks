@@ -27,13 +27,13 @@ To get you started with the Impresso Public API, the Starter Pack includes a set
 
 A series of notebooks that illustrate how to access and explore entities in the impresso corpus, and how to use Impresso entity models. Impresso shares its [models](https://huggingface.co/impresso-project) on Hugging Face. You can use them to annotate your documents, thus obtaining annotations that are compatible with those of the Impresso corpus.
 
-- [NE_01_bert_ner](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner.ipynb)
+- [NE_01_bert_ner](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner.ipynb): a notebook that explains how to use the Impresso NER model to annotate entities in a text.
 
-- [NE_02_bert_ner_nel](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_02_bert_ner_nel.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_02_bert_ner_nel.ipynb)
+- [NE_02_bert_ner_nel](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_02_bert_ner_nel.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_02_bert_ner_nel.ipynb): a notebook that explains how to use the Impresso NER and EL models to annotate entities in a text.
 
-- [NE_03_newsagencies](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_03_newsagencies.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_03_newsagencies.ipynb)
+- [NE_03_newsagencies](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_03_newsagencies.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_03_newsagencies.ipynb): a notebook that explains how to use the Impresso NER model to annotate news agencies in a text.
 
-- [NE_04_ner_nel_API](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_04_ner_nel_API.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_04_ner_nel_API.ipynb)
+- [NE_04_ner_nel_API](https://github.com/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_04_ner_nel_API.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_04_ner_nel_API.ipynb): a notebook that explains how to use the Impresso NER and EL models to annotate entities in a text using the Impresso Annotation Services.
 
 ### ➤ Topics
 
