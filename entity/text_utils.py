@@ -102,7 +102,7 @@ def segment_and_trim_sentences(
     return trimmed_sentences
 
 
-def is_stopword_or_all_stopwords(text: str, languages: list | None = None) -> bool:
+def is_stopword_or_all_stopwords(text: str, languages) -> bool:
     """Check if all tokens in the text are stopwords in the given languages.
 
     Args:
