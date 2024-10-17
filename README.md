@@ -16,14 +16,16 @@ This repository contains notebooks that illustrate how to explore
 
 ## Notebooks
 
-### ➤ Exploring the Impresso API
+### ➤ Getting Started
 
 To get you started with the Impresso Public API, the Starter Pack includes a set of notebooks that illustrate how to access, download, and explore the data.
 
 - [starter_01_environment](): a notebook that explains the basics of Python environment and libraries in [Google Colab](https://colab.google/).
 - [starter_02_impresso_api](): a notebook that explains how to use the Impresso API, what data can be retrieved and how to explore it.
 
-### ➤ Entities
+### ➤ Explore and Visualise your Impresso data
+
+### ➤ Annotate your Documents with Impresso Models
 
 A series of notebooks that illustrate how to access and explore entities in the impresso corpus, and how to use Impresso entity models. Impresso shares its [models](https://huggingface.co/impresso-project) on Hugging Face. You can use them to annotate your documents, thus obtaining annotations that are compatible with those of the Impresso corpus.
 
@@ -32,8 +34,6 @@ A series of notebooks that illustrate how to access and explore entities in the 
 - [annotation_newsagencies](https://github.com/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_newsagencies.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_newsagencies.ipynb): a notebook that explains how to use the Impresso NER model to annotate news agencies in a text.
 
 - [annotation_NERC_EL_impresso_service](https://github.com/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_NERC_EL_impresso_service.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_NERC_EL_impresso_service.ipynb): a notebook that explains how to use the Impresso NER and EL models to annotate entities in a text using the Impresso Annotation Services.
-
-### ➤ Topics
 
 ## About Impresso
 
