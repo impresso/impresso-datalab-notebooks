@@ -2,7 +2,7 @@ import requests
 
 
 def get_linked_entities(text):
-    url = "https://impresso-annotation.epfl.ch/api/ner_nel/"
+    url = "https://impresso-annotation.epfl.ch/api/ner-nel/"
 
     # Prepare the payload
     payload = {"data": text}
