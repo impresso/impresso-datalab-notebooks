@@ -4,31 +4,19 @@ This repository contains Jupyter notebooks and utilities for performing named en
 
 ## Notebooks
 
-### 1. [Generic Entity Recognition](NE_01_ner.ipynb)
-This notebook demonstrates how to set up a workflow for identifying generic named entities within your text. It uses a pre-trained NER model to detect mentions of people, places, organizations, and temporal expressions.
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_01_ner.ipynb?copy=true)
-
-### 2. [Generic Entity Recognition and Linking](NE_01_ner_nel.ipynb)
+### [Named Entity Recognition and Linking](annotation_NERC_EL_HF.ipynb)
 Building on the `NE_01_ner.ipynb` notebook, this notebook not only identifies generic named entities but also focuses on generating Wikidata and Wikipedia links for these entities. This adds valuable metadata to your text, providing deeper insights and connections to structured knowledge bases.
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_02_ner_nel.ipynb?copy=true)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/annotation_NERC_EL_HF.ipynb?copy=true)
 
-### 3. [News Agency Entity Recognition](NE_03_newsagencies.ipynb)
+### [News Agency Entity Recognition](annotation_newsagencies.ipynb)
 This notebook is tailored towards identifying news agencies within historical newspaper articles. Using a pre-trained NER model, it highlights the role and mentions of news agencies in your text.
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_03_newsagencies.ipynb?copy=true)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_newsagencies.ipynb?copy=true)
 
-### 4. [Generic Named Entity Recognition and Linking with _Impresso_ API](NE_04_ner_nel_API.ipynb)
+### [Named Entity Recognition and Linking with _Impresso_ API](annotation_NERC_EL_impresso_services.ipynb)
 This notebook demonstrates how to use the _Impresso_ API to perform named entity recognition and linking on a collection of newspaper articles. It shows how to extract named entities from the _Impresso_ API and link them to Wikidata and Wikipedia.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/NE_04_ner_nel_API.ipynb?copy=true)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/2-entity/annotation_NERC_EL_impresso_services.ipynb?copy=true)
 
-## Utilities
-
-### utils.py
-This Python script contains utility functions used across the notebooks. It includes functions for retrieving Wikipedia page properties and linking entities to Wikidata.
-
-## Setup
-
-To use these notebooks, you might need to set the `HF_TOKEN` environment variable. You can get your token by signing up on the [Hugging Face website](https://huggingface.co/join) and read more in the [official documentation](https://huggingface.co/docs/huggingface_hub/v0.20.2/en/quick-start#environment-variable).
 
 ## Requirements
 
@@ -36,12 +24,10 @@ To run the notebooks, ensure you have the following Python packages installed:
 
 - transformers
 - torch
-- pandas
-- requests
-- nltk
+
 
 You can install these packages using pip:
 
 ```bash
-pip install transformers torch pandas requests nltk
+pip install transformers torch 
 ```
