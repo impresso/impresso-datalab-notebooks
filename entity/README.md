@@ -4,29 +4,32 @@ This repository contains Jupyter notebooks and utilities for performing named en
 
 ## Notebooks
 
-### [Named Entity Recognition and Linking](annotation_NERC_EL_HF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_NERC_EL_HF.ipynb?copy=true)
+### [Named Entity Recognition and Linking](NE-processing_with_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/NE-processing_with_ImpressoHF.ipynb?copy=true)
 
 This notebook identifies named entities and links them to Wikidata and Wikipedia. 
 
-### [News Agency Entity Recognition](annotation_newsagencies.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_newsagencies.ipynb?copy=true)
-
-This notebook is tailored towards identifying news agencies within historical newspaper articles.
-
-### [Named Entity Recognition and Linking with Impresso Annotation Services](annotation_NERC_EL_impresso_services.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/annotation_NERC_EL_impresso_services.ipynb?copy=true)
+### [Named Entity Recognition and Linking with Impresso Annotation Services](NE-processing_with_ImpressoAPI.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/NE-processing_with_ImpressoAPI.ipynb?copy=true)
 
 This notebook demonstrates how to use the Impresso Annotation Services to perform named entity recognition and linking on a collection of newspaper articles. It shows how to extract named entities from the Impresso Annotation Services and link them to Wikidata and Wikipedia.
+
+### [News Agency Entity Recognition](newsagency-processing_with_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/entity/newsagency-processing_with_ImpressoHF.ipynb?copy=true)
+
+This notebook is tailored towards identifying news agencies within historical newspaper articles.
 
 
 ## Requirements
 
-To run the notebooks, ensure you have the following Python packages installed:
+To run the notebooks, ensure you have the following Python packages installed. Otherwise, you can install them directly in the notebooks.
 
 - transformers
 - torch
+- nltk
+- sentencepiece
+- protobuf
 
 
 You can install these packages using pip:
 
 ```bash
-pip install transformers torch 
+pip install transformers torch nltk sentencepiece protobuf
 ```
