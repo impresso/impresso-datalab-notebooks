@@ -2,9 +2,9 @@
 
 ## Language Identification
 
-This notebook demonstrates how to run our language identification method for any input document, returning a main language, or a mix of different languages.
-
 #### [Language identification](language-identification_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/flipz357/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb)
+
+This notebook demonstrates how to run our language identification method for any input document, returning a main language, or a mix of different languages.
 
 ## Named Entity Recognition and Linking
 
