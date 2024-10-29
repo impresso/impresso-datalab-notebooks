@@ -24,6 +24,8 @@ This notebook demonstrates how to use the Impresso Annotation Services to perfor
 
 This notebook is tailored towards identifying news agencies within historical newspaper articles.
 
+#### [Searching Relevant texts within an Embedding space](search_multilingual_docs-ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/search_multilingual_docs-ImpressoHF.ipynb?copy=true) 
+
 ### Requirements
 
 To run the notebooks, ensure you have the following Python packages installed. Otherwise, you can install them directly in the notebooks.
