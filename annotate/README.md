@@ -2,7 +2,7 @@
 
 ## Language Identification
 
-#### [Language identification](language-identification_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/flipz357/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb)
+#### [Language identification](language-identification_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb)
 
 This notebook demonstrates how to run our language identification method for any input document, returning a main language, or a mix of different languages.
 
@@ -14,7 +14,7 @@ This repository contains Jupyter notebooks and utilities for performing named en
 
 #### [Named Entity Recognition and Linking](NE-processing_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoHF.ipynb?copy=true)
 
-This notebook identifies named entities and links them to Wikidata and Wikipedia. 
+This notebook identifies named entities and links them to Wikidata and Wikipedia.
 
 #### [Named Entity Recognition and Linking with Impresso Annotation Services](NE-processing_ImpressoAPI.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb?copy=true)
 
