@@ -51,7 +51,7 @@ The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-n
 
 - [NE-processing_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb) to use NER and EL Impresso model via the Impresso API. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb?copy=true)
 
-- [newsagency-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb)  to use the Impresso newsagency recognition model from Hugging Face [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb).
+- [newsagency-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb) to use the Impresso newsagency recognition model from Hugging Face [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb).
 
 
 ## About Impresso
