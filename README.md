@@ -53,8 +53,6 @@ The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-n
 
 - [newsagency-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb)  to use the Impresso newsagency recognition model from Hugging Face [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb).
 
-- [language-identification_ImpressoHF.ipynb](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/language-identification_with_ImpressoHF.ipynb)
-
 
 ## About Impresso
 
