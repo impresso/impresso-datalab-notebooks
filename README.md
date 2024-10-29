@@ -53,6 +53,7 @@ The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-n
 
 - [newsagency-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb) to use the Impresso newsagency recognition model from HF. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb)
 
+- [Searching Relevant texts within an Embedding space](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/search_multilingual_docs-ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/search_multilingual_docs-ImpressoHF.ipynb?copy=true) 
 
 ## About Impresso
 
