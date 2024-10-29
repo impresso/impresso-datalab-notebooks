@@ -29,7 +29,7 @@ Before getting started, check out how to create an account and obtain an API tok
 
 The notebooks in the [`starter`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/starter) folder will help you get started with the Impresso Public API and Python library:
 
-- [basics_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb)
+- [basics_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb)
 - [search]()
 - [collection]()
 
@@ -38,8 +38,8 @@ The notebooks in the [`starter`](https://github.com/impresso/impresso-datalab-no
 
 The notebooks in the [`explore-vis`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/explore-vis) folder help you build complementary views on your Impresso data:
 
-- [entity_network](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb)
-- [place-entities_map](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb)
+- [entity_network](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb)
+- [place-entities_map](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb)
 
 ### Annotate your Documents with Impresso Models
 
