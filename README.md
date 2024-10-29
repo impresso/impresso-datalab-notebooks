@@ -45,9 +45,11 @@ The notebooks in the [`explore-vis`](https://github.com/impresso/impresso-datala
 
 The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/annotate) folder demonstrate how to use Impresso models, either from the [Hugging Face hub](https://huggingface.co/impresso-project) or through the Impresso API. These notebooks guide you in annotating your documents to produce annotations that are compatible with those in the Impresso corpus.
 
+- [Language identification](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb)
+
 - [NE-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoHF.ipynb) to use NER and EL Impresso model from Hugging Face (HF). [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoHF.ipynb)
 
-- [NE-processing_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb) to use NER and EL Impresso model via the Impresso API.
+- [NE-processing_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb) to use NER and EL Impresso model via the Impresso API. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb?copy=true)
 
 - [newsagency-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb)  to use the Impresso newsagency recognition model from Hugging Face [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb).
 
