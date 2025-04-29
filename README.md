@@ -46,9 +46,7 @@ The notebooks in the [`explore-vis`](https://github.com/impresso/impresso-datala
 The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/annotate) folder demonstrate how to use Impresso models, either from the [Hugging Face hub](https://huggingface.co/impresso-project) or through the Impresso API. These notebooks guide you in annotating your documents to produce annotations that are compatible with those in the Impresso corpus.
 
 - [Language Identification with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/langident_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/langident_pipeline_demo.ipynb)
-
 - [OCR Quality Assessment with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/ocrqa_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/ocrqa_pipeline_demo.ipynb)
-
 - [News Agencies Recognition and Linking with Impresso BERT models](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 
