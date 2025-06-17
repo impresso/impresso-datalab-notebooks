@@ -29,31 +29,27 @@ Before getting started, check out how to create an account and obtain an API tok
 
 The notebooks in the [`starter`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/starter) folder will help you get started with the Impresso Public API and Python library:
 
-- [basics_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb)
-- [search]()
-- [collection]()
+- [Introduction to the Impresso Python Library](https://github.com/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/starter/basics_ImpressoAPI.ipynb)
+- [A quick guide to searching with Impresso library](https://github.com/impresso/impresso-datalab-notebooks/blob/main/starter/search_ImpressoAPI.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/starter/search_ImpressoAPI.ipynb)
+
 
 
 ### Explore and Visualise your Impresso data
 
 The notebooks in the [`explore-vis`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/explore-vis) folder help you build complementary views on your Impresso data:
 
-- [entity_network](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb)
-- [place-entities_map](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb)
+- [Exploring Entity Co-occurrence Networks](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb)
+- [Visualising Place Entities on Maps](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb)
 
 ### Annotate your Documents with Impresso Models
 
 The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-notebooks/tree/main/annotate) folder demonstrate how to use Impresso models, either from the [Hugging Face hub](https://huggingface.co/impresso-project) or through the Impresso API. These notebooks guide you in annotating your documents to produce annotations that are compatible with those in the Impresso corpus.
 
-- [Language identification](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/language-identification_ImpressoHF.ipynb)
+- [Language Identification with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/langident_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/langident_pipeline_demo.ipynb)
+- [OCR Quality Assessment with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/ocrqa_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/ocrqa_pipeline_demo.ipynb)
+- [News Agencies Recognition and Linking with Impresso BERT models](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
-- [NE-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoHF.ipynb) to use NER and EL Impresso model from Hugging Face (HF). [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoHF.ipynb)
 
-- [NE-processing_ImpressoAPI](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb) to use NER and EL Impresso model via the Impresso API. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/NE-processing_ImpressoAPI.ipynb?copy=true)
-
-- [newsagency-processing_ImpressoHF](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb) to use the Impresso newsagency recognition model from HF. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb)
-
-- [Searching Relevant texts within an Embedding space](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/search_multilingual_docs-ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/search_multilingual_docs-ImpressoHF.ipynb?copy=true) 
 
 ## About Impresso
 
