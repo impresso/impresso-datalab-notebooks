@@ -7,17 +7,20 @@ These guidelines refer to problems with any Datalab related issues:
 - Impresso models
 - Impresso Python Library/API
 
-> If the problem is related to Impresso Web App, you can report issues directly on GitHub on the repository [impresso-frontend](https://github.com/impresso/impresso-frontend/issues)
+> If the problem is related to Impresso Web App, you can report issues directly via GitHub on the repository [impresso-frontend](https://github.com/impresso/impresso-frontend/issues)
 
 
 ## How can I report a problem?
 
 We have several channels you can use to report a problem with our Datalab. 
 1. Open a GitHub issue
+   
    Open an issue on our GitHub repository [impresso-datalab-notebooks](https://github.com/impresso/impresso-datalab-notebooks/issues). 
 2. Send as an Email
+   
    You can email us on info@impresso-project.ch
 3. Reach out to us via Discord
+   
    Send us a message on Discord using our [#error-reporting](https://discord.com/invite/tYvuD8Nfur) channel.
 
 ## What information should I provide? 
