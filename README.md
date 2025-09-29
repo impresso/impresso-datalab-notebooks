@@ -40,7 +40,7 @@ The notebooks in the [`explore-vis`](https://github.com/impresso/impresso-datala
 
 - [Exploring Entity Co-occurrence Networks](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/entity_network.ipynb)
 - [Visualising Place Entities on Maps](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/place-entities_map.ipynb)
-- [Inspecting my collection with data visualisation tools](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/inspecting_my_collection.ipynb)[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/inspecting_my_collection.ipynb)
+- [Inspecting my collection with data visualisation tools](https://github.com/impresso/impresso-datalab-notebooks/blob/main/explore-vis/inspecting_my_collection.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/explore-vis/inspecting_my_collection.ipynb)
 
 ### Annotate your Documents with Impresso Models
 
