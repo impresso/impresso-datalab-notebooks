@@ -1,20 +1,2 @@
-0. ADHO2025_Workshop slides
-a. https://docs.google.com/presentation/d/1D2DSXiRYjcyHXWNNpmUNJ3ikMDdP02VhiGdM-DeEMEI/edit?usp=sharing
-b. https://docs.google.com/presentation/d/1Ejem-rL0OZMHGDmqeRnBTavqaVZQOpMZDA2dEWAUL7E/edit?usp=sharing
---
-1. Datalab demo tour: https://colab.research.google.com/drive/14l2PoG7tHvpC7MgkzGFmwBpyiN1qEcHx?usp=sharing
-
---
-2. Impresso sample dataframe for DH2025 Workshop
-
-- Dataframe created using query: https://dev.impresso-project.ch/app/search?sq=CgIYAgoqEAIYByABKhFPbHltcGlzY2hlIFNwaWVsZSoPSmV1eCBPbHltcGlxdWVzCggQAhgNKgJhcg==&p=1
-
-- Dataframe: https://github.com/impresso/impresso-datalab-notebooks/blob/main/workshop_resources/impresso-dataframe.csv
-
-- Import Impresso sample as pandas dataframe using: df = pd.read_csv('https://raw.githubusercontent.com/impresso/impresso-datalab-notebooks/main/workshop_resources/impresso-dataframe.csv')
-
---
-3. Notebook to prepare csv file: https://colab.research.google.com/drive/1fk7DtL_CrShEutv8DgJ1XAV5lKQVvVw7?usp=sharing
-
---
-4. Slide deck for final results: https://docs.google.com/presentation/d/18Tm1wye_XfGhUsw78kOQpdlD1PEFgq6JWXrKjPsaL54/edit?usp=sharing
+# Impresso Workshop 4 resources
+- [Notebooks](https://github.com/impresso/impresso-datalab-notebooks/tree/main/workshop_resources/ws4-embeddings) 
