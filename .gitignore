@@ -3,6 +3,14 @@
 .env
 .ipynb_checkpoints/
 
+workshop_resources/ws4-embeddings/Olympics-general.zip
+workshop_resources/ws4-embeddings/collection.md
+workshop_resources/ws4-embeddings/data/
+workshop_resources/ws4-embeddings/embedding_similarity_graph.html
+workshop_resources/ws4-embeddings/graph.html
+workshop_resources/ws4-embeddings/olympic-general-chunks-sample-embedded.json
+workshop_resources/ws4-embeddings/olympic-general-embedded.json
+workshop_resources/ws4-embeddings/vector_db_chunk.faiss
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
