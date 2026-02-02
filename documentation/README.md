@@ -1,4 +1,4 @@
-# Impresso Datalab Editorial Guidelines
+# Impresso Datalab editorial guidelines
 
 - [Editorial pipeline overview](https://github.com/impresso/impresso-datalab-notebooks/blob/main/documentation/editorial-pipeline-overview.md)
 - [Editor's guidelines](https://github.com/impresso/impresso-datalab-notebooks/blob/main/documentation/editors-guidelines.md)
