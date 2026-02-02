@@ -2,19 +2,22 @@
 
 Editor’s procedures for each phase of the editorial pipeline:
 
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/ec88ec5d-1d4c-4d2a-b3c7-1942e7dccec6" />
+
+
 ## Phase 0: Notebook is under production
-The editor is responsible for getting in touch with the author and supporting them in the development of a new notebook for the Impresso Datalab. The editor should ensure the notebook fits the purpose of Datalab and that the topic has the potential of benefiting our users. 
-Editor should also advise the authors with regards to the use of our template. Share the template and make sure authors follow it. 
-Finally, the editor must create an issue on GitHub in the folder impresso-datalab-notebooks, assign the issue to themselves and the author (if internal contributor), assign the issue to the project ‘Impresso Interfaces Releases’, tag it as follows:
-Status: In progress (if notebook is momentaneously frozen, change status to ‘on hold’. If the notebook is totally abandoned, change status to ‘archived’. If the notebook is finalised and published, change it to ‘done’).
-Progress: Phase 0: Notebook is under production (this should be updated according to the next phases.
-Visibility: Public (if notebook is not planned to be shown on Datalab webpage, then change visibility to ‘hidden’.
-Area: datalab
-Release: (it depends if there is an expected project release)
+- The editor is responsible for getting in touch with the author and supporting them in the development of a new notebook for the Impresso Datalab. The editor should ensure the notebook fits the purpose of Datalab and that the topic has the potential of benefiting our users. 
+- The editor should also advise the authors with regards to the use of our template. Share the template and make sure authors follow it. 
+- Finally, the editor must create an issue on GitHub in the folder impresso-datalab-notebooks, assign the issue to themselves and the author (if internal contributor), assign the issue to the project ‘Impresso Interfaces Releases’, tag it as follows:
+- **Status: In progress** (if notebook is momentaneously frozen, change status to ‘on hold’. If the notebook is totally abandoned, change status to ‘archived’. If the notebook is finalised and published, change it to ‘done’).
+- **Progress: Phase 0: Notebook is under production** (this should be updated according to the next phases.
+- **Visibility: Public** (if notebook is not planned to be shown on Datalab webpage, then change visibility to ‘hidden’.
+- **Area: datalab**
+- **Release:** (it depends if there is an expected project release)
 
 ## Phase 1: Initial edit
-After receiving the first draft of the notebook, the editor should run the entire notebook and test the code. It is important to make sure that it runs in both Google Colab and locally. Besides, the editor must provide feedback on the structure of the notebook and its content by adding comments to the file on pull-request using ReviewNB. Comments on code and a summary of the comments added to the file using ReviewNB should be included as a comment in the GitHub issue. 
-The editor should provide the author with a deadline to address the changes (either 1 or 2 weeks, depending on the complexity).
+- After receiving the first draft of the notebook, the editor should run the entire notebook and test the code. It is important to make sure that it runs in both Google Colab and locally. Besides, the editor must provide feedback on the structure of the notebook and its content by adding comments to the file on pull-request using ReviewNB. Comments on code and a summary of the comments added to the file using ReviewNB should be included as a comment in the GitHub issue. 
+- The editor should provide the author with a deadline to address the changes (either 1 or 2 weeks, depending on the complexity).
 
 ## Phase 2: Revision 1
 At this phase, the editor is responsible for finding an internal reviewer (someone working at the Impresso project) to provide feedback on the notebook. After identifying a reviewer, the editor should assign them to the GitHub issue and share the reviewer guidelines A as a comment on the issue (suggestion of text below). 
@@ -51,4 +54,14 @@ The editor must invite an external reviewer (someone who does not work closely w
 
 The editor should support the author to address the changes proposed in the external peer-review and propose a deadline of 1 or 2 weeks for the author to respond to the suggestions. 
 
+## Phase 4: Sustainability assessment
+
+- Replace, whenever possible, links to external resources with their Internet Archive version. 
+- Check requirements
+- Link Notebook to other existing related resources (Eg. HF models, papers, etc.) 
+
+## Phase 5: Publication
+
+- Assign DOI (Zenodo - https://zenodo.org/communities/impresso)
+- Add notebook to Impresso Zotero 
 
