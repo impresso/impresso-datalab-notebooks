@@ -4,6 +4,12 @@
 checks. Add future checks in separate `test_*.py` files in this folder so pytest
 discovers them automatically.
 
+`test_file_references.py` checks README links to local files (including links to
+this repository on GitHub and Colab), Docker COPY/ADD sources, Compose build and
+bind-mount paths, and workflow file inputs (`notebook`, `python-version-file`, and
+`cache-dependency-path`). It does not visit external websites, check link anchors,
+or interpret dynamic paths, arbitrary shell commands, or container-only paths.
+
 `conftest.py` provides shared notebook discovery and the `notebook_path` and
 `repo_root` fixtures. Pytest makes these available to every test file in this
 folder without imports.
