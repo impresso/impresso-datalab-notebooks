@@ -1,6 +1,6 @@
 # Impresso Datalab Notebooks
 
-![License: AGPLV3+](https://img.shields.io/badge/License-AGPLV3+-brightgreen.svg) ![Python](https://img.shields.io/badge/Python->=3.10-blue.svg) [![Generic badge](https://img.shields.io/badge/Status-WIP!-red.svg)](https://shields.io/)
+![License: AGPLV3+](https://img.shields.io/badge/License-AGPLV3+-brightgreen.svg) ![Python](https://img.shields.io/badge/Python->=3.12-blue.svg) [![Generic badge](https://img.shields.io/badge/Status-WIP!-red.svg)](https://shields.io/)
 
 ## About
 
