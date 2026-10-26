@@ -48,6 +48,7 @@ The notebooks in the [`annotate`](https://github.com/impresso/impresso-datalab-n
 
 - [Language Identification with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/langident_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/langident_pipeline_demo.ipynb)
 - [OCR Quality Assessment with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/ocrqa_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/ocrqa_pipeline_demo.ipynb)
+- [Media Sources Recognition with impresso-pipelines Package](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/mediasources_pipeline_demo.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/impresso/impresso-datalab-notebooks/blob/main/annotate/mediasources_pipeline_demo.ipynb)
 - [News Agencies Recognition and Linking with Impresso BERT models](https://github.com/impresso/impresso-datalab-notebooks/blob/main/annotate/newsagency-processing_ImpressoHF.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 
